@@ -7,6 +7,9 @@ import jwt from 'jsonwebtoken';
 declare global {
   var signin: () => string[];
 }
+
+jest.setTimeout(60000);
+
 jest.mock('../nats-wrapper.ts');
 let mongo: any;
 beforeAll(async () => {
