@@ -9,7 +9,7 @@ import mongoose from 'mongoose';
 //    const response = await request(app)
 //      .get(`api/tickets/${id}`)
 //      .send()
-//      .expect(404);
+//   /   .expect(404);
 // });
 
 it('returns the ticket if ticket is found', async () => {
