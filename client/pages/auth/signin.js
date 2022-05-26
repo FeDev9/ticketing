@@ -26,7 +26,7 @@ const signup = () => {
     <form onSubmit={onSubmit}>
       <h1>Sign In</h1>
       <div className="form-group">
-        <label htmlFor="">Email Address</label>
+        <label htmlFor="">Email address</label>
         <input
           type="text"
           className="form-control"
