@@ -9,7 +9,8 @@ const buildClient = ({ req }) => {
       //quando viene fatta una richiesta da next.js a ingress-nginx si porta dietro i cookie,
       //cosa non necessaria quando la richiesta la fa un browser
       baseURL:
-        'http://ingress-nginx-controller.ingress-nginx.svc.cluster.local',
+        //'http://ingress-nginx-controller.ingress-nginx.svc.cluster.local',
+        'http://ticketing-app.cfd',
       headers: req.headers,
     });
   } else {
